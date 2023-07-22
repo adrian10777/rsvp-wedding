@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="styles.css">
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/0nLc4w0dgrQzrbct/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :), you can now exit the page")
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+</script>
+</head>
+
+
+<body>
+
+  <!-- Header / Home-->
+  <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+    <div class="w3-display-middle w3-text-white w3-center">
+      <h1 class="w3-jumbo">Angelica & Adrian</h1>
+      <h2>Are getting married</h2>
+      <h2><b>00.00.2023</b></h2>
+    </div>
+  </header>
+
+  <!-- Navbar (sticky bottom) -->
+  <div class="w3-bottom w3-hide-small">
+    <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+      <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+      <a href="#us" style="width:25%" class="w3-bar-item w3-button">Adrian And Angelica</a>
+      <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Wedding</a>
+      <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
+    </div>
+  </div>
+
+
+  <!-- About / Angelica And Adrian -->
+  <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+    <div class="w3-content">
+      <h1 class="w3-center w3-text-grey"><b>Angelica & Adrian</b></h1>
+    </div>
+    <div class="container">
+      <div class="image">
+        <img class="image1" src="/rsvp-pictures/rsvp-picture3.jpg" style="margin:32px 0">
+      </div>
+        <p class="text"><i>You all know us. And we all know you. We are getting married and will love for you all to be apart of this
+            wonderful blessing. We look forward to seeing you on this beautiful day. God bless.</i>
+        </p>
+      <br>
+  </div>
+  <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding
+    Details</a></p>
+  </div>
+
+  <!-- Background photo -->
+  <div class="w3-display-container bgimg2">
+    <div class="w3-display-middle w3-text-white w3-center">
+      <h1 class="w3-jumbo">You Are Invited</h1><br>
+      <h2>Of course..</h2>
+    </div>
+  </div>
+
+  <!-- Wedding information -->
+  <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+    <div class="w3-content">
+      <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
+      <img class="w3-round-large w3-grayscale-min" src="/w3images/wedding_location.jpg"
+        style="width:100%;margin:64px 0">
+      <div class="w3-row">
+        <div class="w3-half">
+          <h2>When</h2>
+          <p>Wedding Ceremony - 2:00pm</p>
+          <p>Reception & Dinner - 5:00pm</p>
+        </div>
+        <div class="w3-half">
+          <h2>Where</h2>
+          <p>Some place, an address</p>
+          <p>Some where, some address</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RSVP section -->
+  <div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+    <h1>HOPE YOU CAN MAKE IT!</h1>
+    <p class="w3-large">Kindly Respond By (date)</p>
+    <p class="w3-xlarge">
+      <button onclick="document.getElementById('id01').style.display='block'"
+        class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+    </p>
+  </div>
+
+  <!-- RSVP modal -->
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+      <div class="w3-container w3-white w3-center">
+        <h1 class="w3-wide">CAN YOU COME?</h1>
+        <p>We really hope you can make it.</p>
+        <form id="myForm">
+          <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="full_name" name="full_name_not_going" id="input">
+        </form>
+        <p><i>Sincerely, Adrian & Angelica</i></p>
+        <div class="w3-row">
+          <div>
+            <button onclick="SubForm()" type="button"
+              class="w3-button w3-block w3-green">Going</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </form>
+  <!-- Footer -->
+
+  <footer class="w3-center w3-white w3-padding-16">
+  </footer>
+  <div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+
+</html>
+
