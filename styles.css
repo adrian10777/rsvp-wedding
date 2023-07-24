@@ -96,10 +96,7 @@ p {
   .w3-jumbo{
     font-weight:bolder;
     color:white;
-    text-shadow: -1px 1px 0 #000,
-				  1px 1px 0 #000,
-				 1px -1px 0 #000,
-				-1px -1px 0 #000;
+    text-shadow: -1px 1px 0 #ffffff, 1px 1px 0 #c0bbbb, 1px -1px 0 #c0bbbb, -1px -1px 0 #ffffff;
   }
 }
 
