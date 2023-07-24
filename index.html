@@ -20,10 +20,10 @@ function SubForm (){
         type:'post',
         data:$("#myForm").serializeArray(),
         success: function(){
-          alert("Form Data Submitted :), you can now exit the page")
+          alert("The names for those attending the wedding have been submitted :). You can now exit the page or refresh and add more names!")
         },
         error: function(){
-          alert("There was an error :(")
+          alert("There was an error :(, please contact Adrian if this happened.")
         }
     });
 }
@@ -60,7 +60,7 @@ function SubForm (){
     </div>
     <div class="container">
       <div class="image">
-        <img class="image1" src="/rsvp-pictures/rsvp-picture3.jpg" style="margin:32px 0">
+        <img class="image1" src="/rsvp-pictures/rsvp-picture3.jpg">
       </div>
         <p class="text"><i>You all know us. And we all know you. We are getting married and will love for you all to be apart of this
             wonderful blessing. We look forward to seeing you on this beautiful day. God bless.</i>
@@ -82,17 +82,14 @@ function SubForm (){
   <!-- Wedding information -->
   <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
     <div class="w3-content">
-      <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
-      <img class="w3-round-large w3-grayscale-min" src="/w3images/wedding_location.jpg"
-        style="width:100%;margin:64px 0">
       <div class="w3-row">
         <div class="w3-half">
-          <h2>When</h2>
+          <h1><b>When</b></h1>
           <p>Wedding Ceremony - 2:00pm</p>
           <p>Reception & Dinner - 5:00pm</p>
         </div>
         <div class="w3-half">
-          <h2>Where</h2>
+          <h2><b>Where</b></h2>
           <p>Some place, an address</p>
           <p>Some where, some address</p>
         </div>
