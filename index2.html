@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Adrian And Angelica's wedding invitation</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="styles.css">
+
+
+  <script>
+
+    let input3 = document.getElementById('Guest3')
+    let button3 = document.getElementById('3')
+    let input4 = document.getElementById('Guest4')
+    let button4 = document.getElementById('4')
+    let input5 = document.getElementById('Guest5')
+  
+  
+  function clickme1(){
+      console.log(input2)
+    let button1 = document.getElementById('1')
+    let input2 = document.getElementById('Guest2')
+   input2.classList.toggle("hide");
+    input2.classList.toggle("show");
+  
+  }
+  
+  </script>
+
+</head>
+
+
+<body>
+
+
+  <!-- RSVP modal -->
+  <div id="id01" >
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+      <div class="w3-container w3-white w3-center">
+        <h1 class="w3-wide">CAN YOU COME?</h1>
+        <p>Please limit your list to those who were invited. You don't have to fill out all five rows to submit. Just hit the refresh button after submitting if you need to add more than five guests. We sincerely hope you can attend.</p>
+        <form id="myForm">
+          <input class="w3-input w3-border" type="text" id="Guest1" placeholder="Guest1" name="full_name_primary" name="full_name_not_going" id="input">
+        </br>
+          <input class="w3-input w3-border" type="text" id="Guest2" placeholder="Guest2" name="full_name_secondary" name="full_name_not_going" id="input">
+        </br>
+        <input class="w3-input w3-border" type="text" id="Guest3" placeholder="Guest3" name="full_name_third" name="full_name_not_going" id="input">
+      </br>  
+        <input class="w3-input w3-border" type="text" id="Gues4" placeholder="Guest4" name="full_name_fourth" name="full_name_not_going" id="input">
+      </br>  
+        <input class="w3-input w3-border" type="text" id="Guest5" placeholder="Guest5" name="full_name_fifth" name="full_name_not_going" id="input">
+        </form>
+        <p><i>Sincerely, Adrian & Angelica</i></p>
+        <div class="w3-row">
+          <div>
+            <button onclick="SubForm()" type="button"
+              class="w3-button w3-block w3-green">Going</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </form>
+
+
+
+
+</body>
+
+</html>
+
