@@ -1,9 +1,328 @@
-body,h1,h2{font-family: "Raleway", sans-serif}
+@import url(https://fonts.googleapis.com/css?family=Ballet);
+@import url('https://fonts.cdnfonts.com/css/monsieur-la-doulaise');
+@import url('https://fonts.cdnfonts.com/css/italianno');
+@import url('https://fonts.cdnfonts.com/css/parisienne');
+@import url('https://fonts.cdnfonts.com/css/style-script');
+@import url('https://fonts.cdnfonts.com/css/pinyon-script');
+@import url('https://fonts.cdnfonts.com/css/beau-rivage');
+@import url('https://fonts.cdnfonts.com/css/carattere');
+@import url('https://fonts.cdnfonts.com/css/the-nautigal');
+@import url('https://fonts.cdnfonts.com/css/playfair-display');
+@import url('https://fonts.cdnfonts.com/css/fleur-de-leah');
+@import url('https://fonts.cdnfonts.com/css/Luxurious-script');
+@import url('https://fonts.cdnfonts.com/css/Luxurious-roman');
+@import url('https://fonts.cdnfonts.com/css/ballet');
+@import url('https://fonts.cdnfonts.com/css/cormorant-garamond');
+@import url('https://fonts.cdnfonts.com/css/eb-garamond');
+@import url('https://fonts.cdnfonts.com/css/cinzel');
+@import url('https://fonts.cdnfonts.com/css/bodoni-moda');
+@import url('https://fonts.cdnfonts.com/css/bodoni-moda');
+@import url('https://fonts.cdnfonts.com/css/great-vibes');
+@import url('https://fonts.cdnfonts.com/css/montecarlo');
+@import url('https://fonts.cdnfonts.com/css/Julius-Sans-One');
+
+
+#name-font{
+  font-family: 'eb garamond', sans-serif;
+  font-size: 75px !important;
+  height: 180px;
+  text-shadow: 1px 1px 2px black;
+  position: relative;
+  bottom: -10px;
+  font-weight: 400;
+}
+
+@media (max-width: 500px){
+  #name-font{
+    font-family: 'eb garamond', sans-serif;
+    font-size: 43px !important;
+    bottom: 0px;
+    color: #800000;
+
+  }
+  }
+
+#relative{
+  bottom: 90px;
+}
+
+@media (max-width: 500px){
+  #relative{
+    bottom: 300px;
+  }
+  }
+
+  @media (max-width: 500px){
+    body, html {
+      height: 110%;
+  }
+    }
+
+
+
+.w3-display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100% !important;
+}
+
+.paragraph_under_name{
+  font-family: 'montecarlo', sans-serif;
+  font-size: 28px !important;
+  width: 50%;
+  margin: auto;
+  color: #000000;
+  padding-bottom: 0px;
+  /* backdrop-filter: contrast(0.5); */
+
+}
+
+@media (max-width: 500px){
+  .paragraph_under_name{
+    font-family: 'montecarlo', sans-serif;
+    font-size: 28px !important;
+    width: 50%;
+    margin: auto;
+    color: #faf0e6;
+    padding-bottom: 0px;
+    /* backdrop-filter: contrast(0.5); */
+  
+  }
+  }
+
+
+
+#and{
+  font-family: 'montecarlo', sans-serif;
+  font-size: 65px !important;
+  height: 180px;
+  text-shadow: 1px 1px 2px black;
+}
+
+@media (max-width: 500px){
+  #and{
+    font-family: 'montecarlo', sans-serif;
+    font-size: 40px !important;
+    height: 180px;
+    text-shadow: 1px 1px 2px black;
+    color: #B87333;
+    
+  }
+  }
+
+#rsvp_line{
+  /* font-family: 'montecarlo', sans-serif;
+  font-family: 'eb garamond', sans-serif; */
+/* color: white; */
+font-size: 20px;
+/* text-shadow: 1px 1px 2px black; */
+letter-spacing: 0px;
+color: #800000;
+
+}
+
+@media (max-width: 500px){
+  #rsvp_line{
+    /* font-family: 'montecarlo', sans-serif;
+    font-family: 'eb garamond', sans-serif; */
+  /* color: white; */
+  font-size: 15px;
+  /* text-shadow: 1px 1px 2px black; */
+  letter-spacing: 0px;
+  color: #800000;
+  }
+}
+
+
+
+#rsvp_button{
+    /* font-family: 'eb garamond', sans-serif; */
+    /* font-family: 'montecarlo', sans-serif; */
+    font-family: 'montecarlo', sans-serif;
+    text-shadow: 1px 1px 2px black;
+    background-color: #800000;
+    border: none;
+    color: #B87333;
+
+}
+
+
+#rsvp_button:hover {
+  box-shadow: 0px 15px 20px rgba(128, 0, 32, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.half-width{
+  width: 50%;
+  margin: auto;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#halftitles{
+  font-size: 55px;
+  font-family: 'montecarlo', sans-serif;
+  text-shadow: 1px 1px 2px black;
+}
+
+@media (max-width: 500px){
+  #halftitles{
+    font-size: 43px;
+    font-family: 'montecarlo', sans-serif;
+    text-shadow: 1px 1px 2px black;
+    color: #b87333;
+  }
+}
+
+.w3-pale-red {
+
+  background-color: #faf0e6 !important;
+}
+
+
+
+#halftitlesdescription{
+  
+  font-size: 20px;
+  font-family: 'eb garamond', sans-serif;
+  font-weight:500;
+  line-height: 1;
+  background-color:  rgba(255,255,255,0.75);
+  padding: 10px ;
+  margin: auto;
+width: 50%;
+color: black;
+}
+
+@media (max-width: 500px){
+  #halftitlesdescription{
+  
+    font-size: 20px;
+    font-family: 'eb garamond', sans-serif;
+    font-weight:500;
+    line-height: 1;
+    background-color:  rgba(0, 0, 0, 0);
+    padding: 10px ;
+    margin: auto;
+  width: 100%;
+  color: #faf0e6;
+  text-shadow: 1px 1px 2px black;
+ }
+}
+
+#white-background {
+  background-color:  rgba(255,255,255,0.75);
+  padding: 10px ;
+  margin: auto;
+width: 80%;
+color: black;
+margin-bottom: -1px;
+
+}
+
+@media (max-width: 500px){
+  #white-background {
+    background-color: rgb(201, 169, 166);
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    position: relative;
+    bottom: auto;
+    margin-bottom: -1px;
+    color: #faf0e6;
+    text-shadow: 1px 1px 2px black;
+
+
+  }
+}
+
+#white-background2 {
+  background-color:  rgba(255,255,255,0.75);
+  padding: 10px ;
+  margin: auto;
+width: 40%;
+color: black;
+margin-bottom: -1px;
+}
+
+@media (max-width: 500px){
+  #white-background2 {
+    background-color: rgb(201, 169, 166);
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    position: relative;
+    bottom: auto;
+    margin-bottom: -1px;
+    color: #B87333;
+    text-shadow: 1px 1px 2px black;
+
+  }
+}
+
+#white-background3 {
+  background-color:  rgba(255,255,255,0.75);
+  padding: 10px ;
+  margin: auto;
+width: 40%;
+color: black;
+margin-bottom: -1px;
+}
+
+@media (max-width: 500px){
+  #white-background3 {
+    background-color: rgb(201, 169, 166);
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    position: relative;
+    bottom: auto;
+    margin-bottom: -1px;
+    color: #faf0e6;
+    text-shadow: 1px 1px 2px black;
+
+  }
+}
+
+@media (max-width: 500px){
+  .w3-row{
+    position: relative;
+    top: 120px;
+    
+  }
+}
+#third_line{
+  color:black;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 26px;
+  letter-spacing: 10px;
+}
+
+@media (max-width: 500px){
+  #third_line{
+    color: #B87333;
+  }
+}
+
+#fourth_line{
+  color:black;
+  /* font-family: 'Playfair Display', sans-serif; */
+  font-family: 'cormorant garamond', sans-serif;
+  font-size: 30px;
+  letter-spacing: 10px;
+  padding-top: 0px;
+  
+}
+
+
+
 
 body, html {
 
-  height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+  height: 100%
 
 }
 
@@ -12,22 +331,79 @@ p {
 }
 
 .bgimg {
-  min-height: 100%;
-  max-width: 100;
+
+  /* Full height */
+  display: block; /* remove extra space below image */
+  max-width: 100%;
+  height: 100%;
+
+  /* Center and scale the image nicely */
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  /* filter: brightness(90%); */
 }
 
 .bgimg {background-image: url("rsvp-pictures/rsvp-picture1.jpg")}
+
+@media (max-width: 500px){
+  .bgimg {
+
+  /* Full height */
+  /* display: block; remove extra space below image */
+
+  height: 100%;
+  background-color: #faf0e6;
+  /* Center and scale the image nicely */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  
+  /* filter: brightness(90%); */
+  }
+}
 
 .bgimg2 {
   min-height: 100%;
   max-width: 100;
   background-position: center;
   background-size: cover;
+  filter: grayscale(0%);
 }
 
 .bgimg2 {background-image: url("rsvp-pictures/rsvp-picture2.jpg")}
+
+/*.w3-pale-red {
+  background-color: #f7dacab3 !important;
+
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* vignette */
+    /* -webkit-box-shadow: inset 0px 0px 85px rgba(0,0,0,0.4);
+    -moz-box-shadow:    inset 0px 0px 85px rgba(0,0,0,0.4);
+    box-shadow:         inset 0px 0px 85px rgba(0,0,0,0.4); */
+  /* } */
+
+/* .bgimg3 {
+  min-height: 100%;
+  max-width: 100;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(0%);
+} */
+
+/* .w3-display-bottom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100% !important;
+} */
+/* .bgimg3 {background-image: url("rsvp-pictures/rsvp-4.jpg")} */
 
 /* @media (max-width: 500px) {
   .bgimg2 {
@@ -38,11 +414,15 @@ p {
 @media (max-width: 500px){
   .bgimg2 {
     min-height: 100%;
-    max-width: 100;
-    background-position: center;
-    background-size: cover;
+    /* max-width: 100; */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #faf0e6;
   }
 }
+
+
 
 .container {
   display: flex;
@@ -56,6 +436,11 @@ p {
     flex-wrap: wrap;
   }
 }
+.image-row {
+  transform: scaleX(-1);
+  padding-top: 20px;
+  width: 45%;
+}
 
 .image1 {
   max-width: 350px;
@@ -63,7 +448,7 @@ p {
   float:left;
   padding-top: 60px;
   padding-bottom: 60px;
-
+  filter: grayscale(0%);
 }
 @media (max-width: 500px){
   .image1 {
@@ -72,6 +457,7 @@ p {
     float: none;
   }
 }
+
 
 .text {
   font-size: 20px;
@@ -96,9 +482,13 @@ p {
   .w3-jumbo{
     font-weight:bolder;
     color:white;
-    text-shadow: 0px 0px  #c0bbbb,   1px 0px 0 #c0bbbb;
   }
 }
+
+/* .text-shadow-w3-jumbo{
+  text-shadow: 0px 0px  #c0bbbb,   1px 0px 0 #c0bbbb;
+
+} */
 
 /* the wedding section */
 #the-wedding{

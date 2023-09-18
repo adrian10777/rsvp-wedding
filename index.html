@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.cdnfonts.com/css/eb-garamond-2" rel="stylesheet">
 
   <script
   src="https://code.jquery.com/jquery-3.4.1.js"
@@ -31,85 +32,131 @@ function SubForm (){
 
 </script>
 </head>
-
-
 <body>
 
   <!-- Header / Home-->
-  <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
-    <div class="w3-display-middle w3-text-white w3-center">
-      <h1 class="w3-jumbo">Adrian & Angelica</h1>
-      <h2>Are getting married</h2>
-      <h2><b>00.00.2023</b></h2>
+  <header class="w3-display-container bgimg"  id="home">
+    <div id="relative" class="w3-display-middle w3-text-white w3-center">
+      <!-- <h1 id="name-font" class="w3-jumbo" >Adrian < id="and">And</> Angelica</h1> -->
+      <span id="name-font" class="w3-jumbo">Adrian<span id="and"> and </span>  Angelica</span>
+      <!-- <span id="and" >Adrian <span id="name-font" class="w3-jumbo">and</span> Angelica</span> -->
+
+
+      <h1 id="white-background3"  class="paragraph_under_name" style="padding-bottom: 0px;">
+        Request the pleasure of your presence to share in their joy and happiness 
+        as they come together in holy union.
+      </h1>
+      <h1 id="white-background2" id="third_line" class="half-width" style="letter-spacing: 2px; padding-bottom: 0px; padding-top: 0px; font-size:25px; font-family: 'eb garamond'; font-weight:500">Wednesday <br />
+        <span style="font-size: 40px;">11.22.2023<br/></span></h1>
+      <h1 id="white-background3" id="fourth_line" style=" font-family: 'montecarlo', sans-serif; font-size: 25px; padding-top: 0px;">Reception to follow</h1>
     </div>
   </header>
 
   <!-- Navbar (sticky bottom) -->
-  <div class="w3-bottom w3-hide-small">
+  <!-- <div class="w3-bottom w3-hide-small">
     <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
       <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
       <a href="#us" style="width:25%" class="w3-bar-item w3-button">Adrian And Angelica</a>
       <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Wedding</a>
       <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
     </div>
-  </div>
+  </div> -->
 
 
   <!-- About / Angelica And Adrian -->
-  <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <!-- <div  class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
     <div class="w3-content">
-      <h1 class="w3-center w3-text-grey"><b>Adrian & Angelica</b></h1>
+      <h1 class="w3-center"><b>Adrian & Angelica</b></h1>
     </div>
     <div class="container">
       <div class="image">
         <img class="image1" src="/rsvp-pictures/rsvp-picture3.jpg">
       </div>
-        <p class="text"><i>You all know us. And we all know you. We are getting married and will love for you all to be apart of this
-            wonderful blessing. We look forward to seeing you on this beautiful day. God bless.</i>
+        <p class="text"><i>
+          At Three o'clock in the afternoon Wednesday, November 22 2023
         </p>
       <br>
   </div>
   <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding
     Details</a></p>
-  </div>
+  </div> -->
 
   <!-- Background photo -->
   <div class="w3-display-container bgimg2">
     <div class="w3-display-middle w3-text-white w3-center">
-      <h1 class="w3-jumbo">You Are Invited</h1><br>
-      <h2>Of course..</h2>
+      <!-- <h1 id="text-shadow-names" class="w3-jumbo">You Are Invited</h1><br>
+      <h2 id="text-shadow-names">Of course..</h2> -->
+
+      <div class="w3-content">
+      <div class="w3-row">
+        <div class="w3-half">
+          <h1 id="halftitles">Wedding Details</h1>
+          <div id="white-background">
+            <p  id="halftitlesdescription"><i><b>Wedding Ceremony -</b></i><br />  <span style="position: relative;
+              bottom: -3px;">4:30pm</span></p>
+            <p  id="halftitlesdescription"><i><b>Reception -</b></i><br />  We request the pleasure of your company for dinner immediately following the ceremony</p>
+            <p id="halftitlesdescription"><i><b>Dress code -</b></i> <br /> Formal</p>
+          </div>
+        </div>
+        <div class="w3-half">
+          <h1 id="halftitles">Venue/Location</h1>
+          <div id="white-background">
+            <p  id="halftitlesdescription"><i><b>Praedium Garden</b></i></p>
+            <p  id="halftitlesdescription">Av. Hípica V Centenario Km 14 de Las Américas 11606 Santo Domingo, Dominican Republic</p>
+          </div>
+         </div>
+    </div>
+  </div>
     </div>
   </div>
 
   <!-- Wedding information -->
-  <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+  <!-- <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
     <div class="w3-content">
       <div class="w3-row">
         <div class="w3-half">
-          <h1><b>When</b></h1>
+          <h1><b>Venue/Location</b></h1>
+          <p>Praedium Garden</p>
+          <p>Av. Hípica V Centenario Km 14 de Las Américas 11606 Santo Domingo, Dominican Republic</p>
+        </div>
+        <div class="w3-half">
+          <h1><b>Wedding Details</b></h1>
           <p>Wedding Ceremony - 2:00pm</p>
           <p>Reception & Dinner - 5:00pm</p>
         </div>
-        <div class="w3-half">
-          <h2><b>Where</b></h2>
-          <p>Some place, an address</p>
-          <p>Some where, some address</p>
-        </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <!-- RSVP section -->
+  <!-- <div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+    <h1>Details</h1>
+    <div>
+      <img class="image-row" src="/rsvp-pictures/rsvp-picture-praedium.jpg">
+    </div>
+    <h2>For your convenience</h2>
+    
+  </div> -->
+
+  <!-- RSVP section
   <div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
-    <h1>HOPE YOU CAN MAKE IT!</h1>
-    <p class="w3-large">Kindly Respond By (date)</p>
+    <h1>PLease press button below to RSVP</h1>
     <p class="w3-xlarge">
-      <button onclick="document.getElementById('id01').style.display='block'"
+      <button href="https://forms.gle/uGjbbyDu6QuTyCJY7" onclick="document.getElementById('id01').style.display='block'"
         class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
     </p>
+  </div> -->
+
+    <!-- RSVP section with button going to google forms -->
+  <div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+    <h1 id="rsvp_line" style="font-family: 'eb garamond', sans-serif; font-weight:500;"><b>Kindly press button below to RSVP</b></h1>
+    <p class="w3-xlarge">
+      <a href="https://forms.gle/uGjbbyDu6QuTyCJY7">
+        <button
+       id="rsvp_button" class="w3-round  w3-opacity w3-hover-opacity-off" style="padding:8px 60px;"><b>RSVP</b></button>
+      </a> </p>
   </div>
 
-  <!-- RSVP modal -->
+  <!-- RSVP modal
   <div id="id01" class="w3-modal">
     <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
       <div class="w3-container w3-white w3-center">
@@ -135,12 +182,19 @@ function SubForm (){
     </div>
   </div>
 
-  </form>
+  </form> -->
+
+  <!-- RSVP modal -->
+  <!-- <div id="id01" >
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeSXC-E15VvkJSTdy9MYzi3mbuq-P_hNe6ioev0fvAmGpb3-w/viewform?embedded=true" width="640" height="923" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div> -->
+
+  
   <!-- Footer -->
 
-  <footer class="w3-center w3-white w3-padding-16">
+  <!-- <footer class="w3-center w3-white w3-padding-16">
   </footer>
-  <div class="w3-hide-small" style="margin-bottom:32px"> </div>
+  <div class="w3-hide-small" style="margin-bottom:32px"> </div> -->
 
 </body>
 
