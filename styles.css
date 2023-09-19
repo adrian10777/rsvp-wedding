@@ -69,7 +69,7 @@
 }
 
 
-@media (max-width: 400px){
+@media (max-width: 450px){
   .w3-row {
     position: relative;
     top: 200px;
@@ -454,13 +454,31 @@ p {
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 460px){
   .bgimg {
 
   /* Full height */
   /* display: block; remove extra space below image */
 
-  height: 115%;
+  height: 110%;
+  background-color: #faf0e6;
+  /* Center and scale the image nicely */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  
+  /* filter: brightness(90%); */
+  }
+}
+
+@media (max-width: 425px){
+  .bgimg {
+
+  /* Full height */
+  /* display: block; remove extra space below image */
+
+  height: 100%;
   background-color: #faf0e6;
   /* Center and scale the image nicely */
   /* background-position: center; */
@@ -521,6 +539,17 @@ p {
 
 @media (max-width: 500px){
   .bgimg2 {
+    min-height: 110%;
+    /* max-width: 100; */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #faf0e6;
+  }
+}
+
+@media (max-width: 460px){
+  .bgimg2 {
     min-height: 100%;
     /* max-width: 100; */
     background-position: top;
@@ -530,9 +559,9 @@ p {
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 425px){
   .bgimg2 {
-    min-height: 130%;
+    min-height: 100%;
     /* max-width: 100; */
     background-position: top;
     background-repeat: no-repeat;
