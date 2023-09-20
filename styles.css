@@ -585,7 +585,7 @@ p {
 
 @media (max-width: 500px){
   .bgimg2 {
-    min-height: 110%;
+    height: 110%;
     /* max-width: 100; */
     background-position: top;
     background-repeat: no-repeat;
